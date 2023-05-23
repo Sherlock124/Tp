@@ -1,0 +1,13 @@
+php -v
+wget https://raw.githubusercontent.com/linuxsyr/owncloud/main/owncloud.bash //to download owncloud.bash file from github
+chmod +x owncloud.bash
+sudo bash ./owncloud.bash //to run and install owncloud
+cat owncloud.bash //in new terminal to know root password and database pass.
+Open browser and type localhost owncloud homepage occurs
+Fill the details and login
+  database user - root
+  database password - 1234
+  database name - ownclouddb
+  database host - localhost
+Click Finish Setup 
+Then Login
